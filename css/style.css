@@ -2,14 +2,27 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+
+
+
 /* Text Styles // start */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chelsea Market', cursive;
+    /* margin: 8px 0 8px 0; */
+    margin: 8px 0;
+
+} 
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
 h1 {
     color: red;
     font-size: 4.5em;
-    font-weight: 700;
 }
 h2 {
-    font-weight: 700;
+
 }
 h3 {
 
@@ -44,8 +57,122 @@ li {
 
 header {
     background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
 }
 
-/* div {
-    padding: 30px;
-} */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: lightgrey;
+}
+
+/* Links */
+a {
+    color: red;
+}
+a:link {
+    text-decoration: none;
+}
+a:active {
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: limegreen;
+    font-weight: 700;
+}
+
+a:visited {
+
+}
+
+div {
+    display: flex;
+    /* padding: 30px; */
+}
+
+
+section {
+    height: 600px;
+    /* border: coral 2px solid; */
+    padding: 5%;
+    display: flex;
+}
+
+
+.logo-header {
+    height: 100px;
+}
+
+.color_headings {
+    color: darksalmon;
+}
+
+.color_brand_salmon {
+    color: darksalmon;
+}
+
+#hero {
+    background-image: url('../img/joseph-ngabo-CtRUx7gEeZs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#features {
+    flex-direction: column;
+    text-align: center;
+    background-color: #FED9B7;
+    height: 250px;
+}
+
+#testimonial {
+    border: 1px brown solid;
+}
+
+#trial {
+    flex-direction: column;
+    align-items: center;
+    background-color: #F07167;
+    height: 100px;
+}
+
+.col  {
+    flex-direction: column;
+}
+
+.col-features {
+    align-items: center;
+    flex-grow: 1;
+}
+
+.row-features {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.col-testimonials {
+    flex-grow: 1;
+}
+
+.row-trial {
+    margin-top: 25px;
+}
