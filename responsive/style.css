@@ -1,0 +1,56 @@
+
+
+/* this is for mobile  */
+    body {
+        background-color: yellow;
+        font-family: 'Work Sans', sans-serif;
+        padding: 3%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+
+@media only screen and (min-width: 600px) {
+   /* this is for tablet  */
+    body {
+        background-color: tomato;
+    }
+    h1 {
+        font-size: 4.5rem;
+        color: blue;
+    }
+    h3 {
+
+    }
+}
+
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+
+
+@media only screen and (min-width: 768px) {
+    /* this is for desktop  */
+    body { 
+        background-color: peru;
+    }
+    h1 {
+        font-size: 8rem;
+        color: white;
+    }
+    h3 {
+        font-size: 5rem;
+    }
+}
